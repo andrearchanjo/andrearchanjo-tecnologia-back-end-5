@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title Contato Recebido
+        link(rel='stylesheet', href='/css/styles.css')
+    body
+        #div_principal
+            h2 Contato Recebido
+            #div_resposta
+                p Obrigado pelo contato, #{nome}!
+                p Recebemos seu comentário: "#{comentarios}"
+                p A requisição foi feita em: #{requestTime}
+        footer#rodape
+            p Autor: André Archanjo Nunes Coelho
+            p Contato: 
+                a(href='mailto:archanjoandre@yahoo.com.br') archanjoandre@yahoo.com.br

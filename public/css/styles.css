@@ -1,0 +1,100 @@
+body {
+    background-image: linear-gradient(to bottom, #ff9900fc, #ff1e00);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+#div_principal {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.9);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.input_campo {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.input_campo::placeholder {
+    opacity: 0.7;
+}
+
+.input_botao {
+    width: 90%;
+    padding: 10px;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.input_botao:hover {
+    background-color: #e68a00;
+}
+
+#div_botoes {
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#rodape {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-image: linear-gradient(to bottom, #ff9900fc, #ff1e00);
+	color: #fff;
+	display: inline-flex;
+	padding: 10px;
+	box-sizing: border-box;
+	z-index: 2;
+	height: auto;
+}
+
+#rodape p {
+	margin-right: 20px;
+}
+
+p {
+    color: #fff;
+}
